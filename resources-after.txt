@@ -1,0 +1,30 @@
+INFORME PARA EL CTO - ESTADO DEL VPS (AFTER)
+Estado: El VPS de la compañía ha sido optimizado y está LISTO para los próximos despliegues.
+
+--- INFORMACIÓN DEL SISTEMA OPERATIVO ---
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.5 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+
+--- MEMORIA RAM DISPONIBLE (free -h) ---
+               total        used        free      shared  buff/cache   available
+Mem:           957Mi       639Mi       119Mi       3.0Mi       198Mi       175Mi
+Swap:             0B          0B          0B
+
+--- ESPACIO EN DISCO (df -h) ---
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs            96M  980K   95M   1% /run
+/dev/vda1        25G  2.9G   22G  12% /
+tmpfs           479M     0  479M   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+/dev/vda15      105M  6.1M   99M   6% /boot/efi
+tmpfs            96M  4.0K   96M   1% /run/user/0
